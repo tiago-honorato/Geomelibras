@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -297,8 +297,8 @@ MonoBehaviour:
     y: 0
     width: 474
     height: 933
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -715,13 +715,30 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: 50954
+      - m_Data: 57764
       m_LastClickedID:
-        m_Data: 0
+        m_Data: 57764
       m_ExpandedIDs:
-      - m_Data: -16454
+      - m_Data: -7836
+      - m_Data: -7708
+      - m_Data: -7572
+      - m_Data: -5998
+      - m_Data: -5870
+      - m_Data: -5630
+      - m_Data: -5374
+      - m_Data: -5242
+      - m_Data: -2902
+      - m_Data: -2660
+      - m_Data: -2424
+      - m_Data: -2302
+      - m_Data: -2130
       - m_Data: -1320
-      - m_Data: 49210
+      - m_Data: 50494
+      - m_Data: 51316
+      - m_Data: 54212
+      - m_Data: 54798
+      - m_Data: 57754
+      - m_Data: 57834
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1384,9 +1401,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 0.08040786, y: -0.37714607, z: -9.931547}
+    m_Target: {x: -1.0041976, y: 0.0075615197, z: -9.938271}
     speed: 2
-    m_Value: {x: 0.08040786, y: -0.37714607, z: -9.931547}
+    m_Value: {x: -1.0041976, y: 0.0075615197, z: -9.938271}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1436,9 +1453,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.2789145
+    m_Target: 5.951295
     speed: 2
-    m_Value: 5.2789145
+    m_Value: 5.951295
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1521,7 +1538,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1531,7 +1548,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Aluno\Documents\Projetos-Tiago-H\Geomelibras Project\Geomelibras\Geomelibras
   m_LockTracker:
@@ -1540,12 +1557,12 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 49654
+    - m_Data: 49686
     m_LastClickedID:
-      m_Data: 49654
+      m_Data: 49686
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49562
+    - m_Data: 49594
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1579,7 +1596,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49562
+    - m_Data: 49594
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1607,8 +1624,8 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 50954
-    m_LastClickedInstanceID: 50954
+    - m_Data: 57764
+    m_LastClickedInstanceID: 57764
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
@@ -1723,7 +1740,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 150
+  m_LastVerticalScrollValue: 204
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

@@ -201,7 +201,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 110399341}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 270865466}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SolidMenu
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &110399341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -445,7 +457,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 346228569}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 270865466}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: PlansMenu
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &346228569
 MonoBehaviour:
   m_ObjectHideFlags: 0
