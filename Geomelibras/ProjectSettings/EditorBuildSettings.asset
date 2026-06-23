@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LearnMoreSolids.unity
     guid: 325372bc5a3ff69489639cbb85237f9a
   - enabled: 1
+    path: Assets/Scenes/GameScenes/Easy1.unity
+    guid: e8428b649e040324ea6c37425cbdecad
+  - enabled: 1
     path: Assets/Scenes/GameScenes/Med1.unity
     guid: a3a8d62a6a3f84e48bb787b8063da555
   - enabled: 1

@@ -51,6 +51,7 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
@@ -75,6 +76,7 @@
           {
             "name": "AudioListener",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
@@ -107,6 +109,12 @@
             "scenes": [],
             "dependencyType": 1,
             "icon": null
+          },
+          {
+            "name": "Required by Video Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.video"
           }
         ]
       },
@@ -128,6 +136,7 @@
           {
             "name": "Camera",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
@@ -176,6 +185,7 @@
           {
             "name": "EditorExtension",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
@@ -200,6 +210,7 @@
           {
             "name": "GameObject",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
@@ -242,6 +253,7 @@
           {
             "name": "LevelGameManager",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
@@ -284,6 +296,7 @@
           {
             "name": "LightmapSettings",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
@@ -308,6 +321,7 @@
           {
             "name": "Material",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
@@ -344,6 +358,7 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
@@ -368,6 +383,7 @@
           {
             "name": "MonoScript",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
@@ -386,6 +402,7 @@
           {
             "name": "NamedObject",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
@@ -434,6 +451,7 @@
           {
             "name": "RectTransform",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
@@ -458,6 +476,7 @@
           {
             "name": "RenderSettings",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
@@ -475,7 +494,13 @@
           },
           {
             "name": "RenderTexture",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/InfoSceneVideo.unity",
+              "Assets/Scenes/LearnMoreSolids.unity",
+              "Assets/Scenes/PlansMenu.unity",
+              "Assets/Scenes/SolidMenu.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -500,6 +525,7 @@
           {
             "name": "Shader",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
@@ -536,6 +562,7 @@
           {
             "name": "Sprite",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
@@ -577,25 +604,14 @@
           },
           {
             "name": "Texture",
-            "scenes": [
-              "Assets/Scenes/GameScenes/Hard1.unity",
-              "Assets/Scenes/GameScenes/Hard2.unity",
-              "Assets/Scenes/GameScenes/Med1.unity",
-              "Assets/Scenes/InfoScene.unity",
-              "Assets/Scenes/InfoSceneVideo.unity",
-              "Assets/Scenes/LearnMoreScene.unity",
-              "Assets/Scenes/LearnMoreSolids.unity",
-              "Assets/Scenes/MainMenu.unity",
-              "Assets/Scenes/PlansMenu.unity",
-              "Assets/Scenes/SolidMenu.unity",
-              "Assets/Scenes/TitleScene.unity"
-            ],
-            "dependencyType": 0,
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
             "name": "Texture2D",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
@@ -880,6 +896,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.vr"
+          },
+          {
+            "name": "Required by Video Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.video"
           },
           {
             "name": "Required by XR Module",
@@ -1508,6 +1530,12 @@
             "icon": "package/com.unity.modules.vr"
           },
           {
+            "name": "Required by Video Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.video"
+          },
+          {
             "name": "Required by XR Module",
             "scenes": [],
             "dependencyType": 2,
@@ -1573,6 +1601,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.unitywebrequest"
+          },
+          {
+            "name": "Required by Video Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.video"
           }
         ]
       },
@@ -1633,6 +1667,7 @@
           {
             "name": "Font",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
@@ -1715,6 +1750,7 @@
           {
             "name": "Canvas",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
@@ -1739,6 +1775,7 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
@@ -1759,6 +1796,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.uielements"
+          },
+          {
+            "name": "Required by Video Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.video"
           }
         ]
       },
@@ -1879,6 +1922,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.unityanalytics"
+          },
+          {
+            "name": "Required by Video Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.video"
           }
         ]
       },
@@ -1920,6 +1969,35 @@
       {
         "name": "VR",
         "dependencies": []
+      },
+      {
+        "name": "Video",
+        "dependencies": [
+          {
+            "name": "VideoClip",
+            "scenes": [
+              "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/InfoSceneVideo.unity",
+              "Assets/Scenes/LearnMoreSolids.unity",
+              "Assets/Scenes/PlansMenu.unity",
+              "Assets/Scenes/SolidMenu.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "VideoPlayer",
+            "scenes": [
+              "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/InfoSceneVideo.unity",
+              "Assets/Scenes/LearnMoreSolids.unity",
+              "Assets/Scenes/PlansMenu.unity",
+              "Assets/Scenes/SolidMenu.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          }
+        ]
       },
       {
         "name": "XR",
