@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HardScript : MonoBehaviour
@@ -7,14 +8,18 @@ public class HardScript : MonoBehaviour
 
     public GameObject NextButton;
 
+    public GameObject NextLevelButton;
+
     public Button ShapeButton;
 
     public void Correct()
     {
         if (botaoImage != null)
         {
+
             botaoImage.color = Color.green;
             NextButton.SetActive(true);
+
         }
     }
 

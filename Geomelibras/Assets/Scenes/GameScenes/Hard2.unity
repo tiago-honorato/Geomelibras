@@ -173,6 +173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HardScript
   botaoImage: {fileID: 5505544}
   NextButton: {fileID: 31682539}
+  NextLevelButton: {fileID: 0}
   ShapeButton: {fileID: 0}
 --- !u!114 &5505543
 MonoBehaviour:
@@ -221,6 +222,18 @@ MonoBehaviour:
       - m_Target: {fileID: 5505542}
         m_TargetAssemblyTypeName: HardScript, Assembly-CSharp
         m_MethodName: Correct
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1590016454}
+        m_TargetAssemblyTypeName: PointsManager, Assembly-CSharp
+        m_MethodName: AddCount
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -337,6 +350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HardScript
   botaoImage: {fileID: 0}
   NextButton: {fileID: 0}
+  NextLevelButton: {fileID: 0}
   ShapeButton: {fileID: 699408986}
 --- !u!114 &31682543
 MonoBehaviour:
@@ -772,6 +786,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HardScript
   botaoImage: {fileID: 111701248}
   NextButton: {fileID: 237943774}
+  NextLevelButton: {fileID: 0}
   ShapeButton: {fileID: 0}
 --- !u!114 &111701247
 MonoBehaviour:
@@ -820,6 +835,18 @@ MonoBehaviour:
       - m_Target: {fileID: 111701246}
         m_TargetAssemblyTypeName: HardScript, Assembly-CSharp
         m_MethodName: Correct
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1590016454}
+        m_TargetAssemblyTypeName: PointsManager, Assembly-CSharp
+        m_MethodName: AddCount
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1152,6 +1179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HardScript
   botaoImage: {fileID: 0}
   NextButton: {fileID: 0}
+  NextLevelButton: {fileID: 0}
   ShapeButton: {fileID: 1074444534}
 --- !u!114 &237943778
 MonoBehaviour:
@@ -1980,6 +2008,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HardScript
   botaoImage: {fileID: 600501086}
   NextButton: {fileID: 31682539}
+  NextLevelButton: {fileID: 0}
   ShapeButton: {fileID: 0}
 --- !u!114 &600501085
 MonoBehaviour:
@@ -3374,6 +3403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HardScript
   botaoImage: {fileID: 980645479}
   NextButton: {fileID: 0}
+  NextLevelButton: {fileID: 0}
   ShapeButton: {fileID: 0}
 --- !u!1 &995728462
 GameObject:
@@ -4119,6 +4149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HardScript
   botaoImage: {fileID: 0}
   NextButton: {fileID: 0}
+  NextLevelButton: {fileID: 0}
   ShapeButton: {fileID: 1004391656}
 --- !u!1 &1072419399
 GameObject:
@@ -4189,6 +4220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HardScript
   botaoImage: {fileID: 0}
   NextButton: {fileID: 0}
+  NextLevelButton: {fileID: 0}
   ShapeButton: {fileID: 925136525}
 --- !u!114 &1072419403
 MonoBehaviour:
@@ -4710,6 +4742,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HardScript
   botaoImage: {fileID: 1227663974}
   NextButton: {fileID: 1072419399}
+  NextLevelButton: {fileID: 0}
   ShapeButton: {fileID: 0}
 --- !u!114 &1227663973
 MonoBehaviour:
@@ -4758,6 +4791,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1227663972}
         m_TargetAssemblyTypeName: HardScript, Assembly-CSharp
         m_MethodName: Correct
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1590016454}
+        m_TargetAssemblyTypeName: PointsManager, Assembly-CSharp
+        m_MethodName: AddCount
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5324,6 +5369,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HardScript
   botaoImage: {fileID: 1474935098}
   NextButton: {fileID: 237943774}
+  NextLevelButton: {fileID: 0}
   ShapeButton: {fileID: 0}
 --- !u!114 &1474935097
 MonoBehaviour:
@@ -5473,6 +5519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HardScript
   botaoImage: {fileID: 1475657333}
   NextButton: {fileID: 1072419399}
+  NextLevelButton: {fileID: 0}
   ShapeButton: {fileID: 0}
 --- !u!114 &1475657332
 MonoBehaviour:
@@ -5796,6 +5843,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ToggleObject
   G_object: {fileID: 2011191168}
   G_object2: {fileID: 0}
+--- !u!1 &1590016452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1590016453}
+  - component: {fileID: 1590016454}
+  m_Layer: 0
+  m_Name: _PointsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1590016453
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590016452}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.63648, y: -0.11777, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1590016454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590016452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4552f973dc1341b4a92f43f6128562c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PointsManager
+  CorrectCount: 0
+  NextLevelButton: {fileID: 1721294300}
 --- !u!1 &1639919525
 GameObject:
   m_ObjectHideFlags: 0
@@ -5889,7 +5982,7 @@ GameObject:
   - component: {fileID: 1721294303}
   - component: {fileID: 1721294302}
   m_Layer: 5
-  m_Name: NextButton
+  m_Name: NextLevelButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5912,7 +6005,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 630, y: 150}
+  m_AnchoredPosition: {x: 600, y: -360}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1721294302
@@ -5959,7 +6052,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 270865466}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 5
@@ -5968,7 +6061,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: InfoSceneVideo
+          m_StringArgument: Hard3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1721294303
@@ -6157,6 +6250,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HardScript
   botaoImage: {fileID: 1755061869}
   NextButton: {fileID: 0}
+  NextLevelButton: {fileID: 0}
   ShapeButton: {fileID: 0}
 --- !u!1 &1755526406
 GameObject:
@@ -6212,6 +6306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HardScript
   botaoImage: {fileID: 1755526410}
   NextButton: {fileID: 0}
+  NextLevelButton: {fileID: 0}
   ShapeButton: {fileID: 0}
 --- !u!114 &1755526409
 MonoBehaviour:
@@ -7202,6 +7297,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1590016454}
+        m_TargetAssemblyTypeName: PointsManager, Assembly-CSharp
+        m_MethodName: AddCount
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1895503757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7216,6 +7323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HardScript
   botaoImage: {fileID: 1895503754}
   NextButton: {fileID: 1064116240}
+  NextLevelButton: {fileID: 1721294300}
   ShapeButton: {fileID: 0}
 --- !u!1 &1902453723
 GameObject:
@@ -7429,6 +7537,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HardScript
   botaoImage: {fileID: 1933328757}
   NextButton: {fileID: 31682539}
+  NextLevelButton: {fileID: 0}
   ShapeButton: {fileID: 0}
 --- !u!114 &1933328756
 MonoBehaviour:
@@ -7715,6 +7824,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HardScript
   botaoImage: {fileID: 1966882961}
   NextButton: {fileID: 1072419399}
+  NextLevelButton: {fileID: 0}
   ShapeButton: {fileID: 0}
 --- !u!114 &1966882960
 MonoBehaviour:
@@ -8279,3 +8389,4 @@ SceneRoots:
   - {fileID: 1298670681}
   - {fileID: 150849332}
   - {fileID: 270865465}
+  - {fileID: 1590016453}
