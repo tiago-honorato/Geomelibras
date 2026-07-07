@@ -5,6 +5,7 @@ public class PointsManager : MonoBehaviour
 
     public int CorrectCount;
 
+    public int Needed_points;
 
     public GameObject NextLevelButton;
 
@@ -16,7 +17,7 @@ public class PointsManager : MonoBehaviour
     public void UnlockNextLevelButton()
     {
 
-        if (CorrectCount >= 4)
+        if (CorrectCount >= Needed_points)
         {
             NextLevelButton.SetActive(true);
         }

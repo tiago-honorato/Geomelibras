@@ -5,6 +5,8 @@ public class ShapeButtonsManger : MonoBehaviour
     private ShapeButtons primeiroClique;
     private ShapeButtons segundoClique;
 
+    public PointsManager PointsManager;
+
     public GameObject Line1;
     public GameObject Line2;
     public GameObject Line3;
@@ -39,6 +41,7 @@ public class ShapeButtonsManger : MonoBehaviour
         {
             Line1.SetActive(true);
             Debug.Log("Ligação correta!");
+            PointsManager.AddCount();
         }
         else
         {
@@ -49,6 +52,7 @@ public class ShapeButtonsManger : MonoBehaviour
         {
             Line2.SetActive(true);
             Debug.Log("Ligação correta!");
+            PointsManager.AddCount();
         }
         else
         {
@@ -59,6 +63,7 @@ public class ShapeButtonsManger : MonoBehaviour
         {
             Line3.SetActive(true);
             Debug.Log("Ligação correta!");
+            PointsManager.AddCount();
         }
         else
         {
@@ -69,6 +74,7 @@ public class ShapeButtonsManger : MonoBehaviour
         {
             Line4.SetActive(true);
             Debug.Log("Ligação correta!");
+            PointsManager.AddCount();
         }
         else
         {
@@ -79,6 +85,7 @@ public class ShapeButtonsManger : MonoBehaviour
         {
             Line5.SetActive(true);
             Debug.Log("Ligação correta!");
+            PointsManager.AddCount();
         }
         else
         {
@@ -89,6 +96,7 @@ public class ShapeButtonsManger : MonoBehaviour
         {
             Line6.SetActive(true);
             Debug.Log("Ligação correta!");
+            PointsManager.AddCount();
         }
         else
         {

@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 30576259}
   - component: {fileID: 30576262}
   m_Layer: 5
-  m_Name: ShapeButton6
+  m_Name: Cone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -156,7 +156,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 500, y: 270}
-  m_SizeDelta: {x: 150, y: 150}
+  m_SizeDelta: {x: 120, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &30576259
 MonoBehaviour:
@@ -227,14 +227,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 6183613604584341680, guid: 7a63a0be3b64f91478e2f88afb693e42, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -910,16 +910,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 491125617}
-  m_LocalRotation: {x: -0, y: -0, z: -0.22960363, w: 0.97328424}
+  m_LocalRotation: {x: -0, y: -0, z: -0.23493822, w: 0.9720104}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.77676, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1304836889}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -26.547}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -27.176}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 416, y: 36}
+  m_AnchoredPosition: {x: 396, y: 21}
   m_SizeDelta: {x: 10, y: 595.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &491125619
@@ -1477,7 +1477,7 @@ GameObject:
   - component: {fileID: 573818780}
   - component: {fileID: 573818783}
   m_Layer: 5
-  m_Name: ShapeButton5
+  m_Name: Cilindro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1500,7 +1500,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 300, y: 270}
-  m_SizeDelta: {x: 150, y: 150}
+  m_SizeDelta: {x: 120, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &573818780
 MonoBehaviour:
@@ -1571,14 +1571,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 7085456192560487039, guid: 595e69fe7d1d7b748a25520af3583921, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1771,7 +1771,7 @@ GameObject:
   - component: {fileID: 595466762}
   - component: {fileID: 595466765}
   m_Layer: 5
-  m_Name: ShapeButton1
+  m_Name: Cubo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2224,7 +2224,7 @@ GameObject:
   - component: {fileID: 919414377}
   - component: {fileID: 919414380}
   m_Layer: 5
-  m_Name: ShapeButton2
+  m_Name: Esfera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2318,14 +2318,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -3849799457048555490, guid: 1abd860cb1505f042a95fae06963271c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2371,7 +2371,7 @@ GameObject:
   - component: {fileID: 1004391656}
   - component: {fileID: 1004391657}
   m_Layer: 5
-  m_Name: ShapeButton3
+  m_Name: Paralelepipedo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2394,7 +2394,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -100, y: 270}
-  m_SizeDelta: {x: 150, y: 150}
+  m_SizeDelta: {x: 150, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1004391654
 MonoBehaviour:
@@ -2409,14 +2409,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 192934793488876764, guid: 7bc99a957169c8245b28e920f65220b0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3177,9 +3177,9 @@ RectTransform:
   - {fileID: 1019483077}
   - {fileID: 1013525719}
   - {fileID: 1721294301}
+  - {fileID: 1304836889}
   - {fileID: 496439418}
   - {fileID: 534826948}
-  - {fileID: 1304836889}
   - {fileID: 2011191169}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3390,7 +3390,7 @@ GameObject:
   - component: {fileID: 1409678380}
   - component: {fileID: 1409678383}
   m_Layer: 5
-  m_Name: ShapeButton4
+  m_Name: Piramide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3484,14 +3484,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 1628822395543472933, guid: b08707ad2fe723d47911e7d4bb2074cd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3548,16 +3548,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1425070988}
-  m_LocalRotation: {x: -0, y: -0, z: -0.91032463, w: 0.41389495}
+  m_LocalRotation: {x: -0, y: -0, z: -0.91279167, w: 0.40842554}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1304836889}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -131.101}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -131.788}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -73, y: 2}
+  m_AnchoredPosition: {x: -67, y: 9}
   m_SizeDelta: {x: 10, y: 595.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1425070990
@@ -3642,6 +3642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ca72f0c2cf01ee4cb7d76b80ba1f1d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShapeButtonsManger
+  PointsManager: {fileID: 1590016454}
   Line1: {fileID: 1287174989}
   Line2: {fileID: 1904686490}
   Line3: {fileID: 1733177699}
@@ -3841,6 +3842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PointsManager
   CorrectCount: 0
+  Needed_points: 6
   NextLevelButton: {fileID: 1721294300}
 --- !u!1 &1721294300
 GameObject:
@@ -4000,16 +4002,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1733177699}
-  m_LocalRotation: {x: -0, y: -0, z: -0.40997103, w: 0.9120986}
+  m_LocalRotation: {x: -0, y: -0, z: -0.3920874, w: 0.91992795}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1304836889}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -48.406}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -46.169}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 105, y: 26}
+  m_AnchoredPosition: {x: 122, y: 54}
   m_SizeDelta: {x: 10, y: 594}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1733177701
@@ -4217,7 +4219,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -131.91}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 312, y: 13}
+  m_AnchoredPosition: {x: 319, y: 20}
   m_SizeDelta: {x: 10, y: 550.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1828594905

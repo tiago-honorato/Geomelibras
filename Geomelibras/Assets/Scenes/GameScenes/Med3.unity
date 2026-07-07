@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 400, y: -250}
+  m_AnchoredPosition: {x: 365, y: -250}
   m_SizeDelta: {x: 230, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &30576259
@@ -3642,6 +3642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ca72f0c2cf01ee4cb7d76b80ba1f1d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShapeButtonsManger
+  PointsManager: {fileID: 1590016454}
   Line1: {fileID: 1904686490}
   Line2: {fileID: 1287174989}
   Line3: {fileID: 1733177699}
@@ -3841,6 +3842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PointsManager
   CorrectCount: 0
+  Needed_points: 6
   NextLevelButton: {fileID: 1721294300}
 --- !u!1 &1721294300
 GameObject:
@@ -3878,7 +3880,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 600, y: -360}
+  m_AnchoredPosition: {x: 634, y: -341}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1721294302
@@ -4217,7 +4219,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 400, y: -250}
+  m_AnchoredPosition: {x: 365, y: -250}
   m_SizeDelta: {x: 240, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1828594905
