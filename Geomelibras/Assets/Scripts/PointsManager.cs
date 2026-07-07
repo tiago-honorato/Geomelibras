@@ -5,6 +5,7 @@ public class PointsManager : MonoBehaviour
 
     public int CorrectCount;
 
+
     public GameObject NextLevelButton;
 
     public void AddCount()
