@@ -1,0 +1,40 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
+public class EasyScript : MonoBehaviour
+{
+    public Image botaoImage;
+
+    public GameObject NextButton;
+
+    public GameObject NextLevelButton;
+
+    public Button ShapeButton;
+
+    public void Correct()
+    {
+        if (botaoImage != null)
+        {
+
+            botaoImage.color = Color.green;
+            NextButton.SetActive(true);
+
+        }
+    }
+
+    public void Incorrect()
+    {
+        if (botaoImage != null)
+        {
+            botaoImage.color = Color.red;
+        }
+    }
+
+    public void LockButton()
+    {
+
+        ShapeButton.interactable = false;
+
+    }
+}
