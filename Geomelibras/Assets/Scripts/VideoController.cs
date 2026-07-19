@@ -9,9 +9,17 @@ public class VideoController : MonoBehaviour
 
     private string videoAtual;
 
+    public void ChoosePlayVideo(VideoClip clip)
+    {
+        videoPlayer.Stop();
+        videoPlayer.clip = clip;
+        videoPlayer.Play();
+
+    }
+
     public void ReproduzirVideo(string urlVideo)
     {
-        // Se clicar no mesmo vídeo novamente → fecha
+        
         if (videoDisplay.activeSelf)
         {
             if (videoAtual == urlVideo)

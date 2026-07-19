@@ -725,7 +725,7 @@ GameObject:
   - component: {fileID: 485900198}
   - component: {fileID: 485900199}
   m_Layer: 5
-  m_Name: ArestaButton
+  m_Name: VerticeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -770,7 +770,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5678809320411104127, guid: 41425725126a3ff499c1d5bf6662b91a, type: 3}
+  m_Sprite: {fileID: 159736823957702574, guid: fde735074585652458093dea2feda28c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -839,6 +839,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 959616372}
+        m_TargetAssemblyTypeName: VideoController, Assembly-CSharp
+        m_MethodName: ChoosePlayVideo
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 32900000, guid: 778650dd79cadf342bacfe8ac1fcf275, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1283,7 +1295,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "S\xE3o as superf\xEDcies planas ou os \"lados\" da figura."
+  m_text: "S\xE3o os encontros dos lados de cada forma geom\xE9trica"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1571,6 +1583,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 959616372}
+        m_TargetAssemblyTypeName: VideoController, Assembly-CSharp
+        m_MethodName: ChoosePlayVideo
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 32900000, guid: 2beb29655ecbfd544a8b2789c2af1d90, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &801713286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1626,7 +1650,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 959616371}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: c3baa921604f2b446a07ca471e70a1bc, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: ef9753a0bb1e98e439c56cffb07d8629, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -1663,7 +1687,7 @@ Transform:
   m_GameObject: {fileID: 959616371}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.88198, y: -0.11877, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2109,7 +2133,7 @@ GameObject:
   - component: {fileID: 1156669595}
   - component: {fileID: 1156669596}
   m_Layer: 5
-  m_Name: VerticeButton
+  m_Name: ArestaButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2154,7 +2178,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 159736823957702574, guid: fde735074585652458093dea2feda28c, type: 3}
+  m_Sprite: {fileID: 5678809320411104127, guid: 41425725126a3ff499c1d5bf6662b91a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2223,6 +2247,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 959616372}
+        m_TargetAssemblyTypeName: VideoController, Assembly-CSharp
+        m_MethodName: ChoosePlayVideo
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 32900000, guid: 1af3ac5e5887a784e88491358c011c1c, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2538,7 +2574,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -250, y: -300}
-  m_SizeDelta: {x: 800, y: 125}
+  m_SizeDelta: {x: 830, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1706688034
 MonoBehaviour:
@@ -2560,7 +2596,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "S\xE3o as superf\xEDcies planas ou os \"lados\" da figura."
+  m_text: "S\xE3o os \"cantinhos\" ou pontos onde as arestas se encontram."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
