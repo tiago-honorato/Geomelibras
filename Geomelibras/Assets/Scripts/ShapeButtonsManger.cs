@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ShapeButtonsManger : MonoBehaviour
+public class ShapeButtonsManger : MonoBehaviour // CODIGO PODRE ABAIXO
 {
     private ShapeButtons primeiroClique;
     private ShapeButtons segundoClique;
@@ -40,67 +40,67 @@ public class ShapeButtonsManger : MonoBehaviour
         if (primeiroClique.id == 1 && segundoClique.id == 1)
         {
             Line1.SetActive(true);
-            Debug.Log("Ligação correta!");
-            PointsManager.AddCount();
+            Debug.Log("Ligacao correta!");
+            PointsManager.AddCount();            
         }
         else
         {
-            Debug.Log("Ligação errada!");
+            Debug.Log("Ligacao errada!");
         }
 
         if (primeiroClique.id == 2 && segundoClique.id == 2)
         {
             Line2.SetActive(true);
-            Debug.Log("Ligação correta!");
+            Debug.Log("Ligacao correta!");
             PointsManager.AddCount();
         }
         else
         {
-            Debug.Log("Ligação errada!");
+            Debug.Log("Ligacao errada!");
         }
 
         if (primeiroClique.id == 3 && segundoClique.id == 3)
         {
             Line3.SetActive(true);
-            Debug.Log("Ligação correta!");
+            Debug.Log("Ligacao correta!");
             PointsManager.AddCount();
         }
         else
         {
-            Debug.Log("Ligação errada!");
+            Debug.Log("Ligacao errada!");
         }
 
         if (primeiroClique.id == 4 && segundoClique.id == 4)
         {
             Line4.SetActive(true);
-            Debug.Log("Ligação correta!");
+            Debug.Log("Ligacao correta!");
             PointsManager.AddCount();
         }
         else
         {
-            Debug.Log("Ligação errada!");
+            Debug.Log("Ligacao errada!");
         }
 
         if (primeiroClique.id == 5 && segundoClique.id == 5)
         {
             Line5.SetActive(true);
-            Debug.Log("Ligação correta!");
+            Debug.Log("Ligacao correta!");
             PointsManager.AddCount();
         }
         else
         {
-            Debug.Log("Ligação errada!");
+            Debug.Log("Ligacao errada!");
         }
 
         if (primeiroClique.id == 6 && segundoClique.id == 6)
         {
             Line6.SetActive(true);
-            Debug.Log("Ligação correta!");
+            Debug.Log("Ligacao correta!");
             PointsManager.AddCount();
         }
         else
         {
-            Debug.Log("Ligação errada!");
+            Debug.Log("Ligacao errada!");
         }
 
     }

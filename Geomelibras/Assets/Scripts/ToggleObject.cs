@@ -1,13 +1,20 @@
 using UnityEngine;
 
-public class ToggleObject : MonoBehaviour
+public class ToggleObject : MonoBehaviour // CODIGO PODRE ABAIXO
 {
 
     public GameObject G_object;
 
     public GameObject G_object2;
 
-    //Ativa e desativa.
+    public void ToggleSelectedObj(GameObject obj)
+    {
+        if (obj != null)
+        {
+            obj.SetActive(!obj.activeSelf);
+        }
+    }
+
     public void ToggleObj()
     {
         if (G_object != null)
