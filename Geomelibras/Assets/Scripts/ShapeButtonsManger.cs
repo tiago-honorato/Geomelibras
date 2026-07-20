@@ -13,6 +13,10 @@ public class ShapeButtonsManger : MonoBehaviour // CODIGO PODRE ABAIXO
     public GameObject Line4;
     public GameObject Line5;
     public GameObject Line6;
+    public GameObject Extra;
+    public GameObject Extra2;
+    public GameObject Extra3;
+    public GameObject Extra4;
 
     public void ReceberClique(ShapeButtons botao)
     {
@@ -95,6 +99,38 @@ public class ShapeButtonsManger : MonoBehaviour // CODIGO PODRE ABAIXO
         if (primeiroClique.id == 6 && segundoClique.id == 6)
         {
             Line6.SetActive(true);
+            Debug.Log("Ligacao correta!");
+            PointsManager.AddCount();
+        }
+
+        //EXTRA
+        if (primeiroClique.id == 5 && segundoClique.id == 11)
+        {
+            Extra.SetActive(true);
+            Debug.Log("Ligacao correta!");
+            PointsManager.AddCount();
+        }
+
+        //EXTRA
+        if (primeiroClique.id == 5 && segundoClique.id == 12)
+        {
+            Extra2.SetActive(true);
+            Debug.Log("Ligacao correta!");
+            PointsManager.AddCount();
+        }
+
+        //EXTRA
+        if (primeiroClique.id == 1 && segundoClique.id == 13)
+        {
+            Extra3.SetActive(true);
+            Debug.Log("Ligacao correta!");
+            PointsManager.AddCount();
+        }
+
+        //EXTRA
+        if (primeiroClique.id == 1 && segundoClique.id == 14)
+        {
+            Extra4.SetActive(true);
             Debug.Log("Ligacao correta!");
             PointsManager.AddCount();
         }
