@@ -1982,7 +1982,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 196514722098290623, guid: d48934bcb647ffd4c9e6585109b3b69e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8804.586
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 196514722098290623, guid: d48934bcb647ffd4c9e6585109b3b69e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2002,11 +2002,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 196514722098290623, guid: d48934bcb647ffd4c9e6585109b3b69e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 26.513544
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 196514722098290623, guid: d48934bcb647ffd4c9e6585109b3b69e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1.6943936
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 196514722098290623, guid: d48934bcb647ffd4c9e6585109b3b69e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2024,14 +2024,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ConfirmationExitPanel
       objectReference: {fileID: 0}
+    - target: {fileID: 5031562364974569780, guid: d48934bcb647ffd4c9e6585109b3b69e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6342463921562451569, guid: d48934bcb647ffd4c9e6585109b3b69e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 270865466}
-    - target: {fileID: 6342463921562451569, guid: d48934bcb647ffd4c9e6585109b3b69e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadScene
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2694,6 +2694,10 @@ MonoBehaviour:
   Line4: {fileID: 1425070988}
   Line5: {fileID: 491125617}
   Line6: {fileID: 1828594903}
+  Extra: {fileID: 0}
+  Extra2: {fileID: 0}
+  Extra3: {fileID: 0}
+  Extra4: {fileID: 0}
 --- !u!1 &1590016452
 GameObject:
   m_ObjectHideFlags: 0

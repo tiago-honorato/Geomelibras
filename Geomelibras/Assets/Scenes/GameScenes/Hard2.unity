@@ -262,7 +262,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6470460504253458178, guid: a661fb86099670c49b2df1a043231e65, type: 3}
+  m_Sprite: {fileID: 4130640169021434097, guid: 6d169382f205dd7459a3db7be0fe0125, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -508,7 +508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HardScript
   botaoImage: {fileID: 111701248}
-  NextButton: {fileID: 237943774}
+  NextButton: {fileID: 0}
   NextLevelButton: {fileID: 0}
   ShapeButton: {fileID: 0}
 --- !u!114 &111701247
@@ -557,19 +557,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 111701246}
         m_TargetAssemblyTypeName: HardScript, Assembly-CSharp
-        m_MethodName: Correct
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1590016454}
-        m_TargetAssemblyTypeName: PointsManager, Assembly-CSharp
-        m_MethodName: AddCount
+        m_MethodName: Incorrect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -599,7 +587,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6937817954938267909, guid: 02294c656fbd38d409160f01479f7daa, type: 3}
+  m_Sprite: {fileID: 3465286685962602723, guid: 8922bfd82a161d04c8bac55a432a298a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1259,7 +1247,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6937817954938267909, guid: 02294c656fbd38d409160f01479f7daa, type: 3}
+  m_Sprite: {fileID: 8288426215254106694, guid: e31a606b3a0f22b47b3dbde19854e9ea, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1939,7 +1927,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6470460504253458178, guid: a661fb86099670c49b2df1a043231e65, type: 3}
+  m_Sprite: {fileID: 6937817954938267909, guid: 02294c656fbd38d409160f01479f7daa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3011,7 +2999,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HardScript
   botaoImage: {fileID: 1227663974}
-  NextButton: {fileID: 1072419399}
+  NextButton: {fileID: 0}
   NextLevelButton: {fileID: 0}
   ShapeButton: {fileID: 0}
 --- !u!114 &1227663973
@@ -3060,19 +3048,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1227663972}
         m_TargetAssemblyTypeName: HardScript, Assembly-CSharp
-        m_MethodName: Correct
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1590016454}
-        m_TargetAssemblyTypeName: PointsManager, Assembly-CSharp
-        m_MethodName: AddCount
+        m_MethodName: Incorrect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3102,7 +3078,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -855298285791758126, guid: dbef4c830fcec0b48a9b5b3380559458, type: 3}
+  m_Sprite: {fileID: 7028616704906629411, guid: 0ac9f32229751eb469e08fce99b0b9f3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3412,7 +3388,19 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1474935096}
         m_TargetAssemblyTypeName: HardScript, Assembly-CSharp
-        m_MethodName: Incorrect
+        m_MethodName: Correct
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1590016454}
+        m_TargetAssemblyTypeName: PointsManager, Assembly-CSharp
+        m_MethodName: AddCount
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3442,7 +3430,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -855298285791758126, guid: dbef4c830fcec0b48a9b5b3380559458, type: 3}
+  m_Sprite: {fileID: -4178046375966092550, guid: 9417326c34364814db1949661a09cf0e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3561,7 +3549,19 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1475657331}
         m_TargetAssemblyTypeName: HardScript, Assembly-CSharp
-        m_MethodName: Incorrect
+        m_MethodName: Correct
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1590016454}
+        m_TargetAssemblyTypeName: PointsManager, Assembly-CSharp
+        m_MethodName: AddCount
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3591,7 +3591,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6470460504253458178, guid: a661fb86099670c49b2df1a043231e65, type: 3}
+  m_Sprite: {fileID: 3465286685962602723, guid: 8922bfd82a161d04c8bac55a432a298a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3998,7 +3998,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 196514722098290623, guid: d48934bcb647ffd4c9e6585109b3b69e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8804.586
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 196514722098290623, guid: d48934bcb647ffd4c9e6585109b3b69e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4018,11 +4018,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 196514722098290623, guid: d48934bcb647ffd4c9e6585109b3b69e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 26.513544
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 196514722098290623, guid: d48934bcb647ffd4c9e6585109b3b69e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1.6943936
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 196514722098290623, guid: d48934bcb647ffd4c9e6585109b3b69e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4039,6 +4039,10 @@ PrefabInstance:
     - target: {fileID: 5031562364974569780, guid: d48934bcb647ffd4c9e6585109b3b69e, type: 3}
       propertyPath: m_Name
       value: ConfirmationExitPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 5031562364974569780, guid: d48934bcb647ffd4c9e6585109b3b69e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6342463921562451569, guid: d48934bcb647ffd4c9e6585109b3b69e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -4122,7 +4126,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6937817954938267909, guid: 02294c656fbd38d409160f01479f7daa, type: 3}
+  m_Sprite: {fileID: -6470460504253458178, guid: a661fb86099670c49b2df1a043231e65, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4186,7 +4190,19 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1755061872}
         m_TargetAssemblyTypeName: HardScript, Assembly-CSharp
-        m_MethodName: Incorrect
+        m_MethodName: Correct
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1590016454}
+        m_TargetAssemblyTypeName: PointsManager, Assembly-CSharp
+        m_MethodName: AddCount
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4209,7 +4225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HardScript
   botaoImage: {fileID: 1755061869}
-  NextButton: {fileID: 0}
+  NextButton: {fileID: 1064116240}
   NextLevelButton: {fileID: 0}
   ShapeButton: {fileID: 0}
 --- !u!1 &1755526406
@@ -4500,7 +4516,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -855298285791758126, guid: dbef4c830fcec0b48a9b5b3380559458, type: 3}
+  m_Sprite: {fileID: 3465286685962602723, guid: 8922bfd82a161d04c8bac55a432a298a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4564,19 +4580,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1895503757}
         m_TargetAssemblyTypeName: HardScript, Assembly-CSharp
-        m_MethodName: Correct
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1590016454}
-        m_TargetAssemblyTypeName: PointsManager, Assembly-CSharp
-        m_MethodName: AddCount
+        m_MethodName: Incorrect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4599,8 +4603,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HardScript
   botaoImage: {fileID: 1895503754}
-  NextButton: {fileID: 1064116240}
-  NextLevelButton: {fileID: 1721294300}
+  NextButton: {fileID: 0}
+  NextLevelButton: {fileID: 0}
   ShapeButton: {fileID: 0}
 --- !u!1 &1902453723
 GameObject:
@@ -4813,7 +4817,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -855298285791758126, guid: dbef4c830fcec0b48a9b5b3380559458, type: 3}
+  m_Sprite: {fileID: -4178046375966092550, guid: 9417326c34364814db1949661a09cf0e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4883,7 +4887,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HardScript
   botaoImage: {fileID: 1966882961}
-  NextButton: {fileID: 1072419399}
+  NextButton: {fileID: 0}
   NextLevelButton: {fileID: 0}
   ShapeButton: {fileID: 0}
 --- !u!114 &1966882960
@@ -4962,7 +4966,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6937817954938267909, guid: 02294c656fbd38d409160f01479f7daa, type: 3}
+  m_Sprite: {fileID: 8288426215254106694, guid: e31a606b3a0f22b47b3dbde19854e9ea, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -1,11 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class EasyScript : MonoBehaviour
+public class MedScript : MonoBehaviour
 {
     public Image botaoImage;
-
-    public GameObject NextButton;
 
     public GameObject NextLevelButton;
 
@@ -17,7 +15,6 @@ public class EasyScript : MonoBehaviour
         {
 
             botaoImage.color = Color.green;
-            NextButton.SetActive(true);
 
         }
     }
