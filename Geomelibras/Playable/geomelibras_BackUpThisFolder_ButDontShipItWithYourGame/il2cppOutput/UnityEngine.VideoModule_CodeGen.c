@@ -11,6 +11,7 @@ extern void VideoClipPlayable_GetHandle_m1D990903234220E9FE756F2DA895650EBDC1415
 extern void VideoClipPlayable_Equals_mDBA2CCE1368B628829B065EA8DEDE84512B2723E (void);
 extern void VideoPlayer_set_source_m31B8A16AF9B6FE58D5DCF549614BE6B53DE53052 (void);
 extern void VideoPlayer_set_url_m02AC2BB229F9441257D62F9ACFD96D09F51B4F14 (void);
+extern void VideoPlayer_set_clip_m85C09C15E184E9AAE117C1A534D8AC25175C8DC9 (void);
 extern void VideoPlayer_Prepare_mC0EF4CC2E5A6B7C04F9F810DD9406A6146BEE6EA (void);
 extern void VideoPlayer_Play_m8E99607F39F1D214BDD704F3E130DD2418787ACE (void);
 extern void VideoPlayer_Stop_m1F2DE73183E042998140A56FF69432A200430BF1 (void);
@@ -27,6 +28,7 @@ extern void VideoPlayer_InvokeClockResyncOccurredCallback_Internal_m743B8421E953
 extern void VideoPlayer__ctor_m309536693DD1F20C0D1E6ABBF5FC48858746C6B6 (void);
 extern void VideoPlayer_set_source_Injected_m4E38E5A67DD6BB9746C481CEEED0608E75A1DDD1 (void);
 extern void VideoPlayer_set_url_Injected_m4A150A878AD11372E0FC794F53B7FC310222E9EC (void);
+extern void VideoPlayer_set_clip_Injected_m4B305EC48C31024B66AD6C641DF75F79AA9BE2C7 (void);
 extern void VideoPlayer_Prepare_Injected_m946CDD19D59354A22257F58821F870E0E6BE3066 (void);
 extern void VideoPlayer_Play_Injected_m6AB297C015723C8F94E805F269EF8A03D1E7835A (void);
 extern void VideoPlayer_Stop_Injected_mD404E9FE0EE18FE42FAE2D9D927D211F18A934E7 (void);
@@ -38,12 +40,13 @@ extern void FrameReadyEventHandler__ctor_mD875F736BCA2A2128427AB0546B5081ED3B22D
 extern void FrameReadyEventHandler_Invoke_m73FF71F81A620194421226D8A98C64FB82E7B235 (void);
 extern void TimeEventHandler__ctor_m7BF78A616C8FF71B3A7CA62B1A03446A5C581309 (void);
 extern void TimeEventHandler_Invoke_m2327761543815FB7181FFF73E87FC5EC0F84349D (void);
-static Il2CppMethodPointer s_methodPointers[31] = 
+static Il2CppMethodPointer s_methodPointers[33] = 
 {
 	VideoClipPlayable_GetHandle_m1D990903234220E9FE756F2DA895650EBDC1415D,
 	VideoClipPlayable_Equals_mDBA2CCE1368B628829B065EA8DEDE84512B2723E,
 	VideoPlayer_set_source_m31B8A16AF9B6FE58D5DCF549614BE6B53DE53052,
 	VideoPlayer_set_url_m02AC2BB229F9441257D62F9ACFD96D09F51B4F14,
+	VideoPlayer_set_clip_m85C09C15E184E9AAE117C1A534D8AC25175C8DC9,
 	VideoPlayer_Prepare_mC0EF4CC2E5A6B7C04F9F810DD9406A6146BEE6EA,
 	VideoPlayer_Play_m8E99607F39F1D214BDD704F3E130DD2418787ACE,
 	VideoPlayer_Stop_m1F2DE73183E042998140A56FF69432A200430BF1,
@@ -60,6 +63,7 @@ static Il2CppMethodPointer s_methodPointers[31] =
 	VideoPlayer__ctor_m309536693DD1F20C0D1E6ABBF5FC48858746C6B6,
 	VideoPlayer_set_source_Injected_m4E38E5A67DD6BB9746C481CEEED0608E75A1DDD1,
 	VideoPlayer_set_url_Injected_m4A150A878AD11372E0FC794F53B7FC310222E9EC,
+	VideoPlayer_set_clip_Injected_m4B305EC48C31024B66AD6C641DF75F79AA9BE2C7,
 	VideoPlayer_Prepare_Injected_m946CDD19D59354A22257F58821F870E0E6BE3066,
 	VideoPlayer_Play_Injected_m6AB297C015723C8F94E805F269EF8A03D1E7835A,
 	VideoPlayer_Stop_Injected_mD404E9FE0EE18FE42FAE2D9D927D211F18A934E7,
@@ -79,45 +83,47 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] =
 	{ 0x06000001, VideoClipPlayable_GetHandle_m1D990903234220E9FE756F2DA895650EBDC1415D_AdjustorThunk },
 	{ 0x06000002, VideoClipPlayable_Equals_mDBA2CCE1368B628829B065EA8DEDE84512B2723E_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[31] = 
+static const int32_t s_InvokerIndices[33] = 
 {
-	15117,
-	8303,
-	11461,
-	11528,
-	15319,
-	15319,
-	15319,
-	11528,
-	11528,
-	25594,
-	22649,
-	25594,
-	25594,
-	25594,
-	22656,
-	25594,
-	22641,
-	15319,
+	15120,
+	8305,
+	11463,
+	11530,
+	11530,
+	15322,
+	15322,
+	15322,
+	11530,
+	11530,
+	25597,
+	22652,
+	25597,
+	25597,
+	25597,
+	22659,
+	25597,
+	22644,
+	15322,
+	22444,
 	22441,
-	22438,
-	25592,
-	25592,
-	25592,
-	5718,
-	11528,
-	5718,
-	5726,
-	5718,
-	5716,
-	5718,
-	5704,
+	22445,
+	25595,
+	25595,
+	25595,
+	5719,
+	11530,
+	5719,
+	5727,
+	5719,
+	5717,
+	5719,
+	5705,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_VideoModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_VideoModule_CodeGenModule = 
 {
 	"UnityEngine.VideoModule.dll",
-	31,
+	33,
 	s_methodPointers,
 	2,
 	s_adjustorThunks,

@@ -52,9 +52,13 @@
             "name": "AudioBehaviour",
             "scenes": [
               "Assets/Scenes/GameScenes/Easy1.unity",
+              "Assets/Scenes/GameScenes/Easy2.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
+              "Assets/Scenes/GameScenes/Hard3.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
+              "Assets/Scenes/GameScenes/Med3.unity",
               "Assets/Scenes/InfoScene.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreScene.unity",
@@ -77,9 +81,13 @@
             "name": "AudioListener",
             "scenes": [
               "Assets/Scenes/GameScenes/Easy1.unity",
+              "Assets/Scenes/GameScenes/Easy2.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
+              "Assets/Scenes/GameScenes/Hard3.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
+              "Assets/Scenes/GameScenes/Med3.unity",
               "Assets/Scenes/InfoScene.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreScene.unity",
@@ -137,9 +145,13 @@
             "name": "Camera",
             "scenes": [
               "Assets/Scenes/GameScenes/Easy1.unity",
+              "Assets/Scenes/GameScenes/Easy2.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
+              "Assets/Scenes/GameScenes/Hard3.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
+              "Assets/Scenes/GameScenes/Med3.unity",
               "Assets/Scenes/InfoScene.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreScene.unity",
@@ -186,9 +198,13 @@
             "name": "EditorExtension",
             "scenes": [
               "Assets/Scenes/GameScenes/Easy1.unity",
+              "Assets/Scenes/GameScenes/Easy2.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
+              "Assets/Scenes/GameScenes/Hard3.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
+              "Assets/Scenes/GameScenes/Med3.unity",
               "Assets/Scenes/InfoScene.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreScene.unity",
@@ -211,9 +227,13 @@
             "name": "GameObject",
             "scenes": [
               "Assets/Scenes/GameScenes/Easy1.unity",
+              "Assets/Scenes/GameScenes/Easy2.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
+              "Assets/Scenes/GameScenes/Hard3.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
+              "Assets/Scenes/GameScenes/Med3.unity",
               "Assets/Scenes/InfoScene.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreScene.unity",
@@ -254,9 +274,13 @@
             "name": "LevelGameManager",
             "scenes": [
               "Assets/Scenes/GameScenes/Easy1.unity",
+              "Assets/Scenes/GameScenes/Easy2.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
+              "Assets/Scenes/GameScenes/Hard3.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
+              "Assets/Scenes/GameScenes/Med3.unity",
               "Assets/Scenes/InfoScene.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreScene.unity",
@@ -297,9 +321,13 @@
             "name": "LightmapSettings",
             "scenes": [
               "Assets/Scenes/GameScenes/Easy1.unity",
+              "Assets/Scenes/GameScenes/Easy2.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
+              "Assets/Scenes/GameScenes/Hard3.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
+              "Assets/Scenes/GameScenes/Med3.unity",
               "Assets/Scenes/InfoScene.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreScene.unity",
@@ -322,9 +350,13 @@
             "name": "Material",
             "scenes": [
               "Assets/Scenes/GameScenes/Easy1.unity",
+              "Assets/Scenes/GameScenes/Easy2.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
+              "Assets/Scenes/GameScenes/Hard3.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
+              "Assets/Scenes/GameScenes/Med3.unity",
               "Assets/Scenes/InfoScene.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreScene.unity",
@@ -359,9 +391,13 @@
             "name": "MonoBehaviour",
             "scenes": [
               "Assets/Scenes/GameScenes/Easy1.unity",
+              "Assets/Scenes/GameScenes/Easy2.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
+              "Assets/Scenes/GameScenes/Hard3.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
+              "Assets/Scenes/GameScenes/Med3.unity",
               "Assets/Scenes/InfoScene.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreScene.unity",
@@ -384,9 +420,13 @@
             "name": "MonoScript",
             "scenes": [
               "Assets/Scenes/GameScenes/Easy1.unity",
+              "Assets/Scenes/GameScenes/Easy2.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
+              "Assets/Scenes/GameScenes/Hard3.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
+              "Assets/Scenes/GameScenes/Med3.unity",
               "Assets/Scenes/InfoScene.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreScene.unity",
@@ -403,9 +443,13 @@
             "name": "NamedObject",
             "scenes": [
               "Assets/Scenes/GameScenes/Easy1.unity",
+              "Assets/Scenes/GameScenes/Easy2.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
+              "Assets/Scenes/GameScenes/Hard3.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
+              "Assets/Scenes/GameScenes/Med3.unity",
               "Assets/Scenes/InfoScene.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreScene.unity",
@@ -452,9 +496,13 @@
             "name": "RectTransform",
             "scenes": [
               "Assets/Scenes/GameScenes/Easy1.unity",
+              "Assets/Scenes/GameScenes/Easy2.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
+              "Assets/Scenes/GameScenes/Hard3.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
+              "Assets/Scenes/GameScenes/Med3.unity",
               "Assets/Scenes/InfoScene.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreScene.unity",
@@ -477,9 +525,13 @@
             "name": "RenderSettings",
             "scenes": [
               "Assets/Scenes/GameScenes/Easy1.unity",
+              "Assets/Scenes/GameScenes/Easy2.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
+              "Assets/Scenes/GameScenes/Hard3.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
+              "Assets/Scenes/GameScenes/Med3.unity",
               "Assets/Scenes/InfoScene.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreScene.unity",
@@ -495,7 +547,14 @@
           {
             "name": "RenderTexture",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
+              "Assets/Scenes/GameScenes/Easy2.unity",
+              "Assets/Scenes/GameScenes/Hard1.unity",
+              "Assets/Scenes/GameScenes/Hard2.unity",
+              "Assets/Scenes/GameScenes/Hard3.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
+              "Assets/Scenes/GameScenes/Med3.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreSolids.unity",
               "Assets/Scenes/PlansMenu.unity",
@@ -526,9 +585,13 @@
             "name": "Shader",
             "scenes": [
               "Assets/Scenes/GameScenes/Easy1.unity",
+              "Assets/Scenes/GameScenes/Easy2.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
+              "Assets/Scenes/GameScenes/Hard3.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
+              "Assets/Scenes/GameScenes/Med3.unity",
               "Assets/Scenes/InfoScene.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreScene.unity",
@@ -563,9 +626,13 @@
             "name": "Sprite",
             "scenes": [
               "Assets/Scenes/GameScenes/Easy1.unity",
+              "Assets/Scenes/GameScenes/Easy2.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
+              "Assets/Scenes/GameScenes/Hard3.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
+              "Assets/Scenes/GameScenes/Med3.unity",
               "Assets/Scenes/InfoScene.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreScene.unity",
@@ -612,9 +679,13 @@
             "name": "Texture2D",
             "scenes": [
               "Assets/Scenes/GameScenes/Easy1.unity",
+              "Assets/Scenes/GameScenes/Easy2.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
+              "Assets/Scenes/GameScenes/Hard3.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
+              "Assets/Scenes/GameScenes/Med3.unity",
               "Assets/Scenes/InfoScene.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreScene.unity",
@@ -752,6 +823,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.jsonserialize"
+          },
+          {
+            "name": "Required by ParticleSystem Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.particlesystem"
           },
           {
             "name": "Required by Physics Module",
@@ -1144,6 +1221,27 @@
         ]
       },
       {
+        "name": "ParticleSystem",
+        "dependencies": [
+          {
+            "name": "ParticleSystem",
+            "scenes": [
+              "Assets/Scenes/GameScenes/Med3.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "ParticleSystemRenderer",
+            "scenes": [
+              "Assets/Scenes/GameScenes/Med3.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          }
+        ]
+      },
+      {
         "name": "Physics",
         "dependencies": [
           {
@@ -1384,6 +1482,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.jsonserialize"
+          },
+          {
+            "name": "Required by ParticleSystem Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.particlesystem"
           },
           {
             "name": "Required by Physics Module",
@@ -1667,11 +1771,7 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/GameScenes/Easy1.unity",
-              "Assets/Scenes/GameScenes/Hard1.unity",
-              "Assets/Scenes/GameScenes/Hard2.unity",
-              "Assets/Scenes/GameScenes/Med1.unity",
-              "Assets/Scenes/InfoScene.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreScene.unity",
               "Assets/Scenes/LearnMoreSolids.unity",
@@ -1751,9 +1851,13 @@
             "name": "Canvas",
             "scenes": [
               "Assets/Scenes/GameScenes/Easy1.unity",
+              "Assets/Scenes/GameScenes/Easy2.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
+              "Assets/Scenes/GameScenes/Hard3.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
+              "Assets/Scenes/GameScenes/Med3.unity",
               "Assets/Scenes/InfoScene.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreScene.unity",
@@ -1776,9 +1880,13 @@
             "name": "CanvasRenderer",
             "scenes": [
               "Assets/Scenes/GameScenes/Easy1.unity",
+              "Assets/Scenes/GameScenes/Easy2.unity",
               "Assets/Scenes/GameScenes/Hard1.unity",
               "Assets/Scenes/GameScenes/Hard2.unity",
+              "Assets/Scenes/GameScenes/Hard3.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
+              "Assets/Scenes/GameScenes/Med3.unity",
               "Assets/Scenes/InfoScene.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreScene.unity",
@@ -1976,7 +2084,14 @@
           {
             "name": "VideoClip",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
+              "Assets/Scenes/GameScenes/Easy2.unity",
+              "Assets/Scenes/GameScenes/Hard1.unity",
+              "Assets/Scenes/GameScenes/Hard2.unity",
+              "Assets/Scenes/GameScenes/Hard3.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
+              "Assets/Scenes/GameScenes/Med3.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreSolids.unity",
               "Assets/Scenes/PlansMenu.unity",
@@ -1988,7 +2103,14 @@
           {
             "name": "VideoPlayer",
             "scenes": [
+              "Assets/Scenes/GameScenes/Easy1.unity",
+              "Assets/Scenes/GameScenes/Easy2.unity",
+              "Assets/Scenes/GameScenes/Hard1.unity",
+              "Assets/Scenes/GameScenes/Hard2.unity",
+              "Assets/Scenes/GameScenes/Hard3.unity",
               "Assets/Scenes/GameScenes/Med1.unity",
+              "Assets/Scenes/GameScenes/Med2.unity",
+              "Assets/Scenes/GameScenes/Med3.unity",
               "Assets/Scenes/InfoSceneVideo.unity",
               "Assets/Scenes/LearnMoreSolids.unity",
               "Assets/Scenes/PlansMenu.unity",
