@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 6e3a74dfa0753a345b9598a9c6c03f4f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -65338079114111648
+    second: logo_unicarioca_0
+  - first:
+      213: -1992743745669900386
+    second: logo_unicarioca_1
+  - first:
+      213: 2288278871770332280
+    second: logo_unicarioca_2
+  - first:
+      213: 1148167803149261704
+    second: logo_unicarioca_3
+  - first:
+      213: 4527163076805335725
+    second: logo_unicarioca_4
+  - first:
+      213: -583153251949429138
+    second: logo_unicarioca_5
+  - first:
+      213: 6319561806755329243
+    second: logo_unicarioca_6
+  - first:
+      213: -1950131435709626804
+    second: logo_unicarioca_7
+  - first:
+      213: 5919631319831118260
+    second: logo_unicarioca_8
+  - first:
+      213: 7286636458019467523
+    second: logo_unicarioca_9
+  - first:
+      213: -2359365382004535562
+    second: logo_unicarioca_10
+  - first:
+      213: -1559914616695658789
+    second: logo_unicarioca_11
+  - first:
+      213: 658717541201009467
+    second: logo_unicarioca_12
+  - first:
+      213: -4849567909380580168
+    second: logo_unicarioca_13
+  - first:
+      213: 9088785239817383832
+    second: logo_unicarioca_14
+  - first:
+      213: 8058589283642771842
+    second: logo_unicarioca_15
+  - first:
+      213: 7196563417908474098
+    second: logo_unicarioca_16
+  - first:
+      213: -9056671473496516741
+    second: logo_unicarioca_17
+  - first:
+      213: 5960237858294273644
+    second: logo_unicarioca_18
+  - first:
+      213: 7312954165848154066
+    second: logo_unicarioca_19
+  - first:
+      213: -4396783094527883194
+    second: logo_unicarioca_20
+  - first:
+      213: -7167137922537456723
+    second: logo_unicarioca_21
+  - first:
+      213: 1710128188367882898
+    second: logo_unicarioca_22
+  - first:
+      213: 362493327028091201
+    second: logo_unicarioca_23
+  - first:
+      213: 7329966066241308011
+    second: logo_unicarioca_24
+  - first:
+      213: -3756888417713504242
+    second: logo_unicarioca_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: logo_unicarioca_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 73
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065d81cfc5fd71ff0800000000000000
+      internalID: -65338079114111648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 73
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e97d6fe0f1a5854e0800000000000000
+      internalID: -1992743745669900386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 73
+        width: 11
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87cf6e2928991cf10800000000000000
+      internalID: 2288278871770332280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 73
+        width: 112
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b9041a88c1fef00800000000000000
+      internalID: 1148167803149261704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa1f3915d6b3de30800000000000000
+      internalID: 4527163076805335725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_5
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 21
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6eb0fff43938e7f0800000000000000
+      internalID: -583153251949429138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_6
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 21
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4f6c31bf793b750800000000000000
+      internalID: 6319561806755329243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_7
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 21
+        width: 10
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46843d9acdbfe4e0800000000000000
+      internalID: -1950131435709626804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_8
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 21
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b18fc36251c62250800000000000000
+      internalID: 5919631319831118260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_9
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 21
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30139a790455f1560800000000000000
+      internalID: 7286636458019467523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_10
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 21
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe044e7fa9d14fd0800000000000000
+      internalID: -2359365382004535562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd66aefbbe11a5ae0800000000000000
+      internalID: -1559914616695658789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 9
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3bda9a1d1c342900800000000000000
+      internalID: 658717541201009467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_13
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 9
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc9c373eafd2bcb0800000000000000
+      internalID: -4849567909380580168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_14
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 9
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fe02b650ad12e70800000000000000
+      internalID: 9088785239817383832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_15
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 9
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2890c4ad14cd5df60800000000000000
+      internalID: 8058589283642771842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_16
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 9
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f07100bc445fd360800000000000000
+      internalID: 7196563417908474098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_17
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 9
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7793d6774d305280800000000000000
+      internalID: -9056671473496516741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_18
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 9
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c661770e0c407b250800000000000000
+      internalID: 5960237858294273644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_19
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 9
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df97127115dc7560800000000000000
+      internalID: 7312954165848154066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_20
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 9
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6480938121d7bf2c0800000000000000
+      internalID: -4396783094527883194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_21
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 9
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab7ce65806398c90800000000000000
+      internalID: -7167137922537456723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_22
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 9
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29acc04d6889bb710800000000000000
+      internalID: 1710128188367882898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_23
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 9
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14975f6a2c5d70500800000000000000
+      internalID: 362493327028091201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_24
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 9
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b650bf92d4549b560800000000000000
+      internalID: 7329966066241308011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_unicarioca_25
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 9
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00486193e9dcdbc0800000000000000
+      internalID: -3756888417713504242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      logo_unicarioca_0: -65338079114111648
+      logo_unicarioca_1: -1992743745669900386
+      logo_unicarioca_10: -2359365382004535562
+      logo_unicarioca_11: -1559914616695658789
+      logo_unicarioca_12: 658717541201009467
+      logo_unicarioca_13: -4849567909380580168
+      logo_unicarioca_14: 9088785239817383832
+      logo_unicarioca_15: 8058589283642771842
+      logo_unicarioca_16: 7196563417908474098
+      logo_unicarioca_17: -9056671473496516741
+      logo_unicarioca_18: 5960237858294273644
+      logo_unicarioca_19: 7312954165848154066
+      logo_unicarioca_2: 2288278871770332280
+      logo_unicarioca_20: -4396783094527883194
+      logo_unicarioca_21: -7167137922537456723
+      logo_unicarioca_22: 1710128188367882898
+      logo_unicarioca_23: 362493327028091201
+      logo_unicarioca_24: 7329966066241308011
+      logo_unicarioca_25: -3756888417713504242
+      logo_unicarioca_3: 1148167803149261704
+      logo_unicarioca_4: 4527163076805335725
+      logo_unicarioca_5: -583153251949429138
+      logo_unicarioca_6: 6319561806755329243
+      logo_unicarioca_7: -1950131435709626804
+      logo_unicarioca_8: 5919631319831118260
+      logo_unicarioca_9: 7286636458019467523
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,143 @@
+using UnityEngine;
+
+public class ShapeButtonsManger : MonoBehaviour // CODIGO PODRE ABAIXO
+{
+    private ShapeButtons primeiroClique;
+    private ShapeButtons segundoClique;
+
+    public PointsManager PointsManager;
+
+    public GameObject Line1;
+    public GameObject Line2;
+    public GameObject Line3;
+    public GameObject Line4;
+    public GameObject Line5;
+    public GameObject Line6;
+    public GameObject Extra;
+    public GameObject Extra2;
+    public GameObject Extra3;
+    public GameObject Extra4;
+
+    public void ReceberClique(ShapeButtons botao)
+    {
+
+        if (botao == primeiroClique)
+            return;
+
+        if (primeiroClique == null)
+        {
+            primeiroClique = botao;
+            return;
+        }
+
+        segundoClique = botao;
+
+        VerificarIDs();
+
+        primeiroClique = null;
+        segundoClique = null;
+    }
+
+    void VerificarIDs()
+    {
+
+        if (primeiroClique.id == 1 && segundoClique.id == 1)
+        {
+            Line1.SetActive(true);
+            Debug.Log("Ligacao correta!");
+            PointsManager.AddCount();            
+        }
+        else
+        {
+            Debug.Log("Ligacao errada!");
+        }
+
+        if (primeiroClique.id == 2 && segundoClique.id == 2)
+        {
+            Line2.SetActive(true);
+            Debug.Log("Ligacao correta!");
+            PointsManager.AddCount();
+        }
+        else
+        {
+            Debug.Log("Ligacao errada!");
+        }
+
+        if (primeiroClique.id == 3 && segundoClique.id == 3)
+        {
+            Line3.SetActive(true);
+            Debug.Log("Ligacao correta!");
+            PointsManager.AddCount();
+        }
+        else
+        {
+            Debug.Log("Ligacao errada!");
+        }
+
+        if (primeiroClique.id == 4 && segundoClique.id == 4)
+        {
+            Line4.SetActive(true);
+            Debug.Log("Ligacao correta!");
+            PointsManager.AddCount();
+        }
+        else
+        {
+            Debug.Log("Ligacao errada!");
+        }
+
+        if (primeiroClique.id == 5 && segundoClique.id == 5)
+        {
+            Line5.SetActive(true);
+            Debug.Log("Ligacao correta!");
+            PointsManager.AddCount();
+        }
+        else
+        {
+            Debug.Log("Ligacao errada!");
+        }
+
+        if (primeiroClique.id == 6 && segundoClique.id == 6)
+        {
+            Line6.SetActive(true);
+            Debug.Log("Ligacao correta!");
+            PointsManager.AddCount();
+        }
+
+        //EXTRA
+        if (primeiroClique.id == 5 && segundoClique.id == 11)
+        {
+            Extra.SetActive(true);
+            Debug.Log("Ligacao correta!");
+            PointsManager.AddCount();
+        }
+
+        //EXTRA
+        if (primeiroClique.id == 5 && segundoClique.id == 12)
+        {
+            Extra2.SetActive(true);
+            Debug.Log("Ligacao correta!");
+            PointsManager.AddCount();
+        }
+
+        //EXTRA
+        if (primeiroClique.id == 1 && segundoClique.id == 13)
+        {
+            Extra3.SetActive(true);
+            Debug.Log("Ligacao correta!");
+            PointsManager.AddCount();
+        }
+
+        //EXTRA
+        if (primeiroClique.id == 1 && segundoClique.id == 14)
+        {
+            Extra4.SetActive(true);
+            Debug.Log("Ligacao correta!");
+            PointsManager.AddCount();
+        }
+        else
+        {
+            Debug.Log("Ligacao errada!");
+        }
+
+    }
+}
