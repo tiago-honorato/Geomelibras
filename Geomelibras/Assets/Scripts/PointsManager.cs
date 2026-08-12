@@ -9,6 +9,8 @@ public class PointsManager : MonoBehaviour
 
     public GameObject NextLevelButton;
 
+    public GameObject GObject;
+
     public void AddCount()
     {
         CorrectCount++;
@@ -20,6 +22,9 @@ public class PointsManager : MonoBehaviour
         if (CorrectCount >= Needed_points)
         {
             NextLevelButton.SetActive(true);
+            if (GObject != null) {
+                GObject.SetActive(false);
+            }
         }
 
     }

@@ -1333,7 +1333,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VideoController
   videoPlayer: {fileID: 605274209}
   videoDisplay: {fileID: 0}
-  background: {fileID: 0}
+  clip1: {fileID: 0}
+  clip2: {fileID: 0}
+  clip3: {fileID: 0}
+  clip4: {fileID: 0}
 --- !u!328 &605274209
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1342,7 +1345,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 605274207}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 0fa3a13aa35eb144eb16bfede0fc8756, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: ee0197ea369fbfc4f8c3168c21bcdf54, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -4051,6 +4054,7 @@ MonoBehaviour:
   CorrectCount: 0
   Needed_points: 4
   NextLevelButton: {fileID: 1124257805}
+  GObject: {fileID: 0}
 --- !u!1 &1639919525
 GameObject:
   m_ObjectHideFlags: 0

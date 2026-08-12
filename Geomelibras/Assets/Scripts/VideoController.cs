@@ -5,50 +5,46 @@ public class VideoController : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
     public GameObject videoDisplay;
-    public GameObject background;
+    //public GameObject background;
 
-    private string videoAtual;
+    public VideoClip clip1;
+    public VideoClip clip2;
+    public VideoClip clip3;
+    public VideoClip clip4;
 
-    public void ChoosePlayVideo(VideoClip clip)
+    private void ReproduzirClip(VideoClip clip)
     {
         videoPlayer.Stop();
+
+        videoPlayer.source = VideoSource.VideoClip;
         videoPlayer.clip = clip;
-        videoPlayer.Play();
 
-    }
-
-    public void ReproduzirVideo(string urlVideo)
-    {
-        
-        if (videoDisplay.activeSelf)
-        {
-            if (videoAtual == urlVideo)
-            {
-                FecharVideo();
-                return;
-            }
-        }
-
-        videoAtual = urlVideo;
-
-        videoPlayer.Stop();
-        videoPlayer.source = VideoSource.Url;
-        videoPlayer.url = urlVideo;
-
-        background.SetActive(true);
-
-
+        //background.SetActive(true);
         videoDisplay.SetActive(true);
 
-        videoPlayer.Prepare();
-
-        videoPlayer.prepareCompleted += OnVideoPrepared;
+        videoPlayer.Play();
     }
 
-    void OnVideoPrepared(VideoPlayer vp)
+    // Métodos para os botões
+
+    public void ReproduzirVideo1()
     {
-        vp.prepareCompleted -= OnVideoPrepared;
-        vp.Play();
+        ReproduzirClip(clip1);
+    }
+
+    public void ReproduzirVideo2()
+    {
+        ReproduzirClip(clip2);
+    }
+
+    public void ReproduzirVideo3()
+    {
+        ReproduzirClip(clip3);
+    }
+
+    public void ReproduzirVideo4()
+    {
+        ReproduzirClip(clip4);
     }
 
     public void FecharVideo()
@@ -56,8 +52,6 @@ public class VideoController : MonoBehaviour
         videoPlayer.Stop();
 
         videoDisplay.SetActive(false);
-        background.SetActive(false);
-
-        videoAtual = null;
+        //background.SetActive(false);
     }
 }

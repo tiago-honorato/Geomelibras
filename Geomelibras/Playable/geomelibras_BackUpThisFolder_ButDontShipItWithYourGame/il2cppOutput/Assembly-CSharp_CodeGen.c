@@ -36,9 +36,11 @@ extern void ToggleObject_ToggleSelectedObj_m8FE2FAE4E5634525044E8123F5D6573407E2
 extern void ToggleObject_ToggleObj_m4919566A0862EAE3998BF2277D1493004889B03F (void);
 extern void ToggleObject_ToggleTwoObj_m81EC260ECA1CB678763AF81F767BD9B7F1E582E6 (void);
 extern void ToggleObject__ctor_mDEC6AB8200C0D28EF417E6E713A9804BB1647782 (void);
-extern void VideoController_ChoosePlayVideo_mBD1996AE77AF54AB2797626156C041D884B6D7B0 (void);
-extern void VideoController_ReproduzirVideo_mC298A7C3BCA5E996AA5721B105831A000E9694D7 (void);
-extern void VideoController_OnVideoPrepared_m682FC1449F89EBBE7CA3496329087678E8D2D89C (void);
+extern void VideoController_ReproduzirClip_m5A7FE6D35E9DD95C0724FCEF73F77417BC42D02A (void);
+extern void VideoController_ReproduzirVideo1_m42D15B306CCE30B888E72781613D5A9FEB787339 (void);
+extern void VideoController_ReproduzirVideo2_m46933A8D596342D0B4E4C246F551C05506DA58CE (void);
+extern void VideoController_ReproduzirVideo3_m5BC9396171F7E5C950E26BE643D08780C26B3D86 (void);
+extern void VideoController_ReproduzirVideo4_m1A4E7952D4C5FC946E9E865CDF10DFD7683D605C (void);
 extern void VideoController_FecharVideo_m9249F9CF02F40DE4025996CDE8946F5B531B7E9E (void);
 extern void VideoController__ctor_m103EB9AC18E394EF526FBFAD32074E59551F3F06 (void);
 extern void ChatController_OnEnable_m025CE203564D82A1CDCE5E5719DB07E29811D0B7 (void);
@@ -308,7 +310,7 @@ extern void U3CWarpTextU3Ed__8_MoveNext_mCE7A826C5E4854C2C509C77BD18F5A9B6D691B0
 extern void U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD80368E9B7E259311C03E406B75161ED6F7618E3 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19 (void);
-static Il2CppMethodPointer s_methodPointers[301] = 
+static Il2CppMethodPointer s_methodPointers[303] = 
 {
 	EasyScript_Correct_mC2A68F625F795490E2587A605EBB0A837DA2891D,
 	EasyScript_Incorrect_mC728C0810014A648624AE60F1921BC849994B5E7,
@@ -339,9 +341,11 @@ static Il2CppMethodPointer s_methodPointers[301] =
 	ToggleObject_ToggleObj_m4919566A0862EAE3998BF2277D1493004889B03F,
 	ToggleObject_ToggleTwoObj_m81EC260ECA1CB678763AF81F767BD9B7F1E582E6,
 	ToggleObject__ctor_mDEC6AB8200C0D28EF417E6E713A9804BB1647782,
-	VideoController_ChoosePlayVideo_mBD1996AE77AF54AB2797626156C041D884B6D7B0,
-	VideoController_ReproduzirVideo_mC298A7C3BCA5E996AA5721B105831A000E9694D7,
-	VideoController_OnVideoPrepared_m682FC1449F89EBBE7CA3496329087678E8D2D89C,
+	VideoController_ReproduzirClip_m5A7FE6D35E9DD95C0724FCEF73F77417BC42D02A,
+	VideoController_ReproduzirVideo1_m42D15B306CCE30B888E72781613D5A9FEB787339,
+	VideoController_ReproduzirVideo2_m46933A8D596342D0B4E4C246F551C05506DA58CE,
+	VideoController_ReproduzirVideo3_m5BC9396171F7E5C950E26BE643D08780C26B3D86,
+	VideoController_ReproduzirVideo4_m1A4E7952D4C5FC946E9E865CDF10DFD7683D605C,
 	VideoController_FecharVideo_m9249F9CF02F40DE4025996CDE8946F5B531B7E9E,
 	VideoController__ctor_m103EB9AC18E394EF526FBFAD32074E59551F3F06,
 	ChatController_OnEnable_m025CE203564D82A1CDCE5E5719DB07E29811D0B7,
@@ -612,7 +616,7 @@ static Il2CppMethodPointer s_methodPointers[301] =
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42,
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19,
 };
-static const int32_t s_InvokerIndices[301] = 
+static const int32_t s_InvokerIndices[303] = 
 {
 	15322,
 	15322,
@@ -644,8 +648,10 @@ static const int32_t s_InvokerIndices[301] =
 	15322,
 	15322,
 	11530,
-	11530,
-	11530,
+	15322,
+	15322,
+	15322,
+	15322,
 	15322,
 	15322,
 	15322,
@@ -920,7 +926,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	301,
+	303,
 	s_methodPointers,
 	0,
 	NULL,
