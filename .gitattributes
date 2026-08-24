@@ -16,7 +16,7 @@
 *.shadergraph linguist-documentation=true
 *.hlsl linguist-documentation=true
 *.cginc linguist-documentation=true
-*.cp linguist-documentation=true
+*.cpp linguist-documentation=true
 
 # Imagens e arquivos binários
 *.png binary
