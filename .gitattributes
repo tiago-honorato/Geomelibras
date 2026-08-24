@@ -11,6 +11,13 @@
 *.yml text eol=lf
 *.txt text eol=lf
 
+# Ocultar arquivos de Shader das estatísticas de linguagem do GitHub
+*.shader linguist-documentation=true
+*.shadergraph linguist-documentation=true
+*.hlsl linguist-documentation=true
+*.cginc linguist-documentation=true
+*.cp linguist-documentation=true
+
 # Imagens e arquivos binários
 *.png binary
 *.jpg binary
