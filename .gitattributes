@@ -17,6 +17,7 @@
 *.hlsl linguist-documentation=true
 *.cginc linguist-documentation=true
 *.cpp linguist-documentation=true
+*.c linguist-documentation=true
 
 # Imagens e arquivos binários
 *.png binary
